@@ -16,7 +16,6 @@
         line-height: 42px;
     }
     &__subheader {
-        color: #ffffff;
         margin-top: 17px;
         font-size: 24px;
         line-height: 24px;
@@ -50,6 +49,9 @@
             text-transform: uppercase;
             text-decoration: underline;
             color: #ffffff;
+            &:hover {
+                color: $buttons_color;
+            }
         }
     }
 }

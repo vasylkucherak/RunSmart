@@ -25,6 +25,9 @@
         font-weight: 700;
         text-decoration: none;
         color: #ffffff;
+        &:hover {
+            color: $buttons_color;
+        }
     }
     &__contacts {
         display: flex;
