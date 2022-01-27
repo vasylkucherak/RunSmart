@@ -13,7 +13,7 @@
             padding: 0;
             li.slick-active {
                 button {
-                    background-color: $buttons-color;
+                    background-color: $button-top-color;
                 }
             }
             button {
@@ -21,7 +21,7 @@
                 height: 10px;
                 font-size: 0;
                 border-radius: 3px;
-                border: 1px solid #830505;
+                border: 1px solid $border-color;
                 box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
             }
             
@@ -37,7 +37,10 @@
         img {
             width: 31px;
             height: 50px;
-            
+            &:hover {
+                height: 48px;
+                margin-top: 2px;
+            }
         }
     }
     .slick-next {
