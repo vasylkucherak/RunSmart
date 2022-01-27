@@ -26,6 +26,14 @@
         min-height: 640px;
         padding: 53px 0 35px 0;
     }
+    .carousel {
+        &__inner {
+            width: 680px;
+            img {
+                width: 100%;
+            }
+        }
+    }
 }
 
 
@@ -104,6 +112,21 @@
             margin-bottom: 20px;
         }
     }
+    .carousel {
+        &__inner {
+            width: 530px;
+            img {
+                width: 100%;
+            }
+            .slick-dots {
+                width: 270px;
+                button {
+                    width: 70px;
+                    height: 9px;
+                }
+            }
+        }  
+    } 
 }
 
 
@@ -193,4 +216,19 @@
     .button_submit {
         display: inline-block;
     }
+    .carousel {
+        &__inner {
+            width: 300px;
+            img {
+                width: 100%;
+            }
+            .slick-dots {
+                width: 230px;
+                button {
+                    width: 60px;
+                    height: 8px;
+                }
+            }
+        }  
+    } 
 }

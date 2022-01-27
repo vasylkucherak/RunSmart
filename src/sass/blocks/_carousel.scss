@@ -4,6 +4,28 @@
         position: relative;
         width: 750px;
         margin: 0 auto;
+        .slick-dots {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+            margin: 0 auto;
+            width: 300px;
+            padding: 0;
+            li.slick-active {
+                button {
+                    background-color: $buttons-color;
+                }
+            }
+            button {
+                width: 80px;
+                height: 10px;
+                font-size: 0;
+                border-radius: 3px;
+                border: 1px solid #830505;
+                box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+            }
+            
+        }
     }
     .slick-prev, .slick-next {
         position: absolute;
@@ -15,6 +37,7 @@
         img {
             width: 31px;
             height: 50px;
+            
         }
     }
     .slick-next {
