@@ -7,6 +7,12 @@
             width: 900px;
         }
     }
+    .catalog {
+        &-item {
+            width: 290px;
+            margin-bottom: 15px;
+        }
+    }
 }
 
 
@@ -32,6 +38,14 @@
             img {
                 width: 100%;
             }
+        }
+    }
+    .catalog {
+        &-item {
+            width: 300px;
+            margin: 20px;
+            margin-top: 0;
+            margin-bottom: 30px;
         }
     }
 }
@@ -126,7 +140,44 @@
                 }
             }
         }  
-    } 
+    }
+    .catalog {
+        &__tab {
+            height: 35px;
+            div {
+                font-size: 14px;
+                line-height: 35px;
+            }
+        }
+        &-item {
+            width: 250px;
+            margin: 10px;
+            margin-top: 0;
+            &__content {
+                width: 210px;
+            }
+            &__price {
+                font-size: 16px;
+            }
+            hr {
+                margin: 14px 0;
+            }
+            &__subtitle {
+                font-size: 15px;
+            }
+            &__list {
+                width: 210px;
+                li {
+                    font-size: 13px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+    .button_mini {
+        width: 90px;
+        height: 35px;
+    }    
 }
 
 
