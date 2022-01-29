@@ -9,9 +9,9 @@
         display: flex;
         margin-top: 60px;
         &__img {
-            img {
-                margin-right: 60px;
-            }
+            margin-right: 60px;
+            width: 169px;
+            height: 169px;
         }
         &__text {
             display: flex;
@@ -24,6 +24,9 @@
             line-height: 18px;
             color: $font-black-color;
             text-decoration: none;
+            &:hover {
+                color: $button-color;
+            }
         }
         &__subheader {
             font-weight: 500;
