@@ -28,7 +28,7 @@
         line-height: 20px;
         color: #fff;
         &:hover {
-            color: #fff;
+            color: $border-gray-color;
         }
     }
     &__social {
@@ -45,6 +45,9 @@
         border: 2px solid #fff;
         border-radius: 100%;
         margin: 0 15px;
+        &:hover {
+            background-color: rgba(232, 232, 232, .5);
+        }
         img {
             height: 27px;
         }
