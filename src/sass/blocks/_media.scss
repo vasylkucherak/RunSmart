@@ -371,4 +371,28 @@
             }
         }
     }
+    .footer {
+        &__info {
+            width: 320px;
+            height: 110px;
+            padding: 10px 18px 10px 18px;
+        }
+        &__addr {
+            font-size: 16px;
+            margin-bottom: 6px;
+        }
+        &__phone {
+            font-size: 14px;
+            margin-bottom: 6px;
+        }
+        &__social {
+            &-item {
+                width: 40px;
+                height: 40px;
+                img {
+                    height: 22px;
+                }
+            }
+        }
+    }
 }
