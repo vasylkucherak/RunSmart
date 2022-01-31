@@ -13,6 +13,11 @@
             margin-bottom: 15px;
         }
     }
+    .pageup {
+        width: 30px;
+        height: 30px;
+        bottom: 24px;
+    }
 }
 
 
@@ -212,7 +217,7 @@
                 height: 144px;
             }
         }
-    }  
+    }
 }
 
 
@@ -424,5 +429,9 @@
     }
     .feed-form {
         width: 280px;
+    }
+    .pageup {
+        width: 24px;
+        height: 24px;
     }
 }
