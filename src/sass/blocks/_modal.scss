@@ -23,6 +23,11 @@
         line-height: 22px;
         color: $button-color;
         cursor: pointer;
+        transition: .3s all;
+
+        &:hover {
+            transform: scale(1.2);
+        }
     }
     &__subtitle {
         color: $font-black-color;
