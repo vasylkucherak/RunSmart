@@ -20,6 +20,15 @@
             margin: 0 auto;
             margin-bottom: 35px;
         }
+        &_cup {
+            animation: rotateCup 2s ease-out infinite normal;
+        }
+        &_heart {
+            animation: heartbeat 2s ease-out infinite normal;
+        }
+        &_shoe {
+            animation: shoeWalk 2s linear infinite normal;
+        }
         span {
             display: block;
             margin: 0 auto;

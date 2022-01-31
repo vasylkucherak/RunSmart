@@ -55,7 +55,6 @@ $(document).ready(function(){
     });
 
     // Validate forms
-
     function validateForm(form) {
         $(form).validate({
             rules: {
